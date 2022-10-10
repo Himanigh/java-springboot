@@ -30,7 +30,7 @@ stages {
     {
         steps
         {
-            echo 'Deploy to Dev'
+            echo 'Deploy to Dev now'
         }
     }
 
