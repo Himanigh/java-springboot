@@ -36,7 +36,7 @@ stages {
 
     }
    
-}
+
 
 post{
     failure{
@@ -48,5 +48,6 @@ post{
     always{
         echo 'always'
     }
+
 }
 }
