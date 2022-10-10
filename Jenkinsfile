@@ -1,7 +1,7 @@
 pipeline {
 agent any
 stages {
-    #CI
+    
     stage('Build')
     {
         steps
@@ -25,7 +25,7 @@ stages {
         }
 
      }
-     #CD
+    
     stage('Deploy to Dev')
     {
         steps
