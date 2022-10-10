@@ -33,26 +33,7 @@ stages {
             echo 'Deploy to Dev'
         }
     }
-    stage('Deploy to QA')
-    {
-        steps
-        {
-            echo 'Deploy to QA'
-        }
-    }
-    stage('Deploy to UAT')
-    {
-        steps
-        {
-            echo 'UAT'
-        }
-    }
-    stage('Deploy to Prod')
-    {
-        steps
-        {
-             echo 'Prod'
-        }
+
     }
    
 }
