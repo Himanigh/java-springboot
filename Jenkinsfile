@@ -7,6 +7,7 @@ stages {
         steps
         {
             echo 'Build'
+            sh 'mvn clean package'
         }
     }
     stage('Test')
@@ -14,6 +15,7 @@ stages {
         steps
         {
             echo 'test'
+            sh 'mvn test'
         }
 
     }
