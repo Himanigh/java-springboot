@@ -14,7 +14,7 @@ stages {
     {
         steps
         {
-            echo 'test'
+            echo 'test123'
             sh 'mvn test'
         }
 
